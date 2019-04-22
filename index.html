@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/nav-style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="print" href="print.css">
+</head>
+
+<body>
+    <!-- skip link -->
+    <a href="#main" class="skip">Skip to main</a>
+    <!-- start of header -->
+    <header id="header" class="header">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i id="symbol-toggle" class="fas fa-bars"></i>
+            </span>
+            <a href="#header" class="logo">
+                <div class="logo-container">
+                    <img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
+                    <h1 class="page-title">Web Dev I</h1>
+                </div>
+            </a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#main" class="nav-links">Main</a>
+                </li>
+                <li>
+                    <a href="#about-me" class="nav-links">About Me</a>
+                </li>
+                <li>
+                    <a href="#pictures" class="nav-links">My Photos</a>
+                </li>
+                <li>
+                    <a href="#story" class="nav-links">A Story</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-links">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header -->
+    <!-- start of main content -->
+    <!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
+    <main id="main" tabindex="-1" class="main">
+        <!-- start of bio section -->
+        <section class="hero">
+            <div class="content">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/aboutme-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/aboutme-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/aboutme-small.jpg">
+                    <img class="my-picture" src="images/aboutme-xsmall.jpg" alt="This is a picture of me">
+                </picture>
+                <p class="my-name">Mariusz Matysek</p>
+                <p class="my-location">Manville, NJ</p>
+            </div>
+        </section>
+        <section id="about-me" class="about-me">
+            <div class="content">
+                <div class="about-content">
+                    <p class="iama">I want to be...</p>
+                    <p class="my-info">An I.T major with a side hobby/job on working with and on cars.</p>
+                    <p class="iama">My favorite way to work is...</p>
+                    <p class="my-info">Early in the morning with a huge cup of coffee and lots of music.</p>
+                    <p class="iama">In my free time, I like to...</p>
+                    <p class="my-info">Hang out with friends and family, play video games as well as travel.</p>
+                </div>
+            </div>
+        </section>
+        <!-- end of bio section -->
+        <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div>
+        <!-- start of photo gallery -->
+        <section id="pictures" class="gallery">
+            <h3>GALLERY</h3>
+            <br class="mobile-first">
+            <figure>
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/ruins1-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/ruins1-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/ruins1-small.jpg">
+                    <img src="images/ruins1-xsmall.jpg" alt="Mayan Ruins 1">
+                </picture>
+                <figcaption>Ruins 1</figcaption>
+            </figure>
+            <hr>
+            <figure>
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/ruins2-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/ruins2-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/ruins2-small.jpg">
+                    <img src="images/ruins2-xsmall.jpg" alt="Mayan Ruins 2">
+                </picture>
+                <figcaption>Ruins 2</figcaption>
+            </figure>
+            <hr>
+            <figure>
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/ruins3-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/ruins3-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/ruins3-small.jpg">
+                    <img src="images/ruins3-xsmall.jpg" alt="Mayan Ruins 3">
+                </picture>
+                <figcaption>Ruins 3</figcaption>
+            </figure>
+
+        </section>
+        <!-- end of photo gallery -->
+        <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div>
+        <hr class="mobile-first">
+        <!-- start of Dracula story -->
+        <article id="story" class="story">
+            <h1>
+                Dracula
+            </h1>
+            <div class="story-body">
+
+                <p>I found Renfield sitting placidly in his room with his hands folded, smiling benignly. At the moment he seemed as sane as any one I ever saw. I sat down and talked with him on a lot of subjects, all of which he treated naturally. He then, of his own accord, spoke of going home, a subject he has never mentioned to my knowledge during his sojourn here. In fact, he spoke quite confidently of getting his discharge at once. I believe that, had I not had the chat with Harker and read the letters and the dates of his outbursts, I should have been prepared to sign for him after a brief time of observation. As it is, I am darkly suspicious. All those outbreaks were in some way linked with the proximity of the Count. What then does this absolute content mean? Can it be that his instinct is satisfied as to the vampire's ultimate triumph? Stay; he is himself zoöphagous, and in his wild ravings outside the chapel door of the deserted house he always spoke of "master." This all seems confirmation of our idea. However, after a while I came away; my friend is just a little too sane at present to make it safe to probe him too deep with questions. He might begin to think, and then--! So I came away. I mistrust these quiet moods of his; so I have given the attendant a hint to look closely after him, and to have a strait-waistcoat ready in case of need. 29 September, in train to London.--When I received Mr. Billington's courteous message that he would give me any information in his power I thought it best to go down to Whitby and make, on the spot, such inquiries as I wanted. It was now my object to trace that horrid cargo of the Count's to its place in London. Later, we may be able to deal with it. Billington junior, a nice lad, met me at the station, and brought me to his father's house, where they had decided that I must stay the night. They are hospitable, with true Yorkshire hospitality: give a guest everything, and leave him free to do as he likes. They all knew that I was busy, and that my stay was short, and Mr. Billington had ready in his office all the papers concerning the consignment of boxes. It gave me almost a turn to see again one of the letters which I had seen on the Count's table before I knew of his diabolical plans. Everything had been carefully thought out, and done systematically and with precision. He seemed to have been prepared for every obstacle which might be placed by accident in the way of his intentions being carried out. To use an Americanism, he had "taken no chances," and the absolute accuracy with which his instructions were fulfilled, was simply the logical result of his care. I saw the invoice, and took note of it: "Fifty cases of common earth, to be used for experimental purposes." Also the copy of letter to Carter Paterson, and their reply; of both of these I got copies. This was all the information Mr. Billington could give me, so I went down to the port and saw the coastguards, the Customs officers and the harbour-master. They had all something to say of the strange entry of the ship, which is already taking its place in local tradition; but no one could add to the simple description "Fifty cases of common earth." I then saw the station-master, who kindly put me in communication with the men who had actually received the boxes. Their tally was exact with the list, and they had nothing to add except that the boxes were "main and mortal heavy," and that shifting them was dry work. One of them added that it was hard lines that there wasn't any gentleman "such-like as yourself, squire," to show some sort of appreciation of their efforts in a liquid form; another put in a rider that the thirst then generated was such that even the time which had elapsed had not completely allayed it. Needless to add, I took care before leaving to lift, for ever and adequately, this source of reproach. 30 September.--The station-master was good enough to give me a line to his old companion the station-master at King's Cross, so that when I arrived there in the morning I was able to ask him about the arrival of the boxes. He, too, put me at once in communication with the proper officials, and I saw that their tally was correct with the original invoice. The opportunities of acquiring an abnormal thirst had been here limited; a noble use of them had, however, been made, and again I was compelled to deal with the result in an ex post facto manner.</p>
+
+                <p>From thence I went on to Carter Paterson's central office, where I met with the utmost courtesy. They looked up the transaction in their day-book and letter-book, and at once telephoned to their King's Cross office for more details. By good fortune, the men who did the teaming were waiting for work, and the official at once sent them over, sending also by one of them the way-bill and all the papers connected with the delivery of the boxes at Carfax. Here again I found the tally agreeing exactly; the carriers' men were able to supplement the paucity of the written words with a few details. These were, I shortly found, connected almost solely with the dusty nature of the job, and of the consequent thirst engendered in the operators. On my affording an opportunity, through the medium of the currency of the realm, of the allaying, at a later period, this beneficial evil, one of the men remarked:--</p>
+
+                <p>"That 'ere 'ouse, guv'nor, is the rummiest I ever was in. Blyme! but it ain't been touched sence a hundred years. There was dust that thick in the place that you might have slep' on it without 'urtin' of yer bones; an' the place was that neglected that yer might 'ave smelled ole Jerusalem in it. But the ole chapel--that took the cike, that did! Me and my mate, we thort we wouldn't never git out quick enough. Lor', I wouldn't take less nor a quid a moment to stay there arter dark."</p>
+            </div>
+        </article>
+
+        <!-- end of Dracula story -->
+    </main>
+    <!-- end of main content -->
+    <div class="back-to-top">
+        <a href="#">Back to Top</a>
+    </div>
+    <hr class="mobile-first">
+    <!-- start of contact form -->
+    <section id="contact" class="form-container">
+        <h1>Get in Touch</h1>
+        <form method="POST" action="https://formspree.io/g00257396@stu.raritanval.edu">
+            <fieldset>
+                <legend>Please Feel Free to Contact Mariusz Matysek</legend>
+                <label for="email">Email</label>
+                <br>
+                <input id="email" type="email" name="email">
+                <br><label for="name">Name </label><br>
+                <input id="name" type="text" name="user_name">
+                <br>
+                <label for="message">Message</label>
+                <br class="mobile-first">
+                <br><br>
+                <textarea id="message" name="message"></textarea>
+                <br><br><br>
+                <fieldset>
+                    <legend>I would like a reply from Mariusz </legend>
+                    <input type="radio" id="reply-yes" name="reply" value="yes" checked>
+                    <label for="reply-yes">Yes</label>
+                    <br><br>
+                    <input type="radio" id="reply-no" name="reply" value="no">
+                    <label for="reply-no">No</label>
+                </fieldset>
+                <br><br>
+                <button type="submit">Send Message</button>
+            </fieldset>
+        </form>
+    </section>
+    <!-- end of contact form -->
+    <!-- start of footer -->
+    <footer>
+        <br class="mobile-first"><br class="mobile-first">
+        <p> MooshMack &copy; 2019 </p>
+    </footer>
+    <div class="back-to-top">
+        <a href="#">Back to Top</a>
+    </div>
+    <!-- end of footer -->
+    <br class="mobile-first"><br class="mobile-first">
+    <!-- start of javascript for nav toggle -->
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        let symbolToggle = document.getElementById('symbol-toggle');
+
+
+        navBarToggle.addEventListener('click', function() {
+            mainNav.classList.toggle('active');
+            if (symbolToggle.classList.contains('fa-bars')) {
+                symbolToggle.classList.remove('fa-bars');
+                symbolToggle.classList.add('fa-times');
+            } else {
+                symbolToggle.classList.remove('fa-times');
+                symbolToggle.classList.add('fa-bars');
+            }
+        });
+
+    </script>
+    <!-- end of javascript for nav toggle -->
+</body>
+
+</html>
